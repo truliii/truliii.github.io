@@ -2,4 +2,19 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-@import 'modern-resume-theme';
+@import "modern-resume-theme";
+
+.profile-img {
+  width: 200px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: block;
+  border-radius: 50px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat, no-repeat;
+  -moz-box-shadow: inset 0 0 20px #636161;
+  -webkit-box-shadow: inset 0 0 20px #636161;
+  box-shadow: inset 0 0 20px #636161;
+}
