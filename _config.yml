@@ -49,6 +49,10 @@ github_username: truliii
 about_profile_image: images/profile_mj.jpg
 about_content: | # this will include new lines to allow paragraphs
   안녕하세요. 항상 겸손한 마음으로 배우는 신입 백엔드 개발자 <mark>김미진</mark>입니다.
+  - 정보처리기사 필기 합격 (2023.07)
+  - SQLD 합격 (2023.06)
+  - TOEIC 890 (2022.08)
+  - 운전면허 2종 보통 (2020.08)
 
 content:
   - title: Education # Title for the section
@@ -80,14 +84,6 @@ content:
       #   caption: 2012.03 - 2018.02
       #   quote: >
       #     TESL(Teaching English as a Second Language)
-
-  - title: License and Certificate
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      - 정보처리기사 필기 합격
-      - SQLD 합격
-      - TOEIC 890
-      - 운전면허 2종보통
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -128,7 +124,6 @@ content:
           모델2 방식의 JSP기반 가계부 개인 프로젝트
         description: | # this will include new lines to allow paragraphs
           - 기간 : 2023.08.01 ~ 진행 중
-          - 인원 : 5명
           - 개발환경 : <mark>Java17</mark> <mark>JavaScript</mark> <mark>Jquery</mark> <mark>MariaDB</mark> <mark>Tomcat9</mark>
           - 담당역할 :
 
@@ -136,6 +131,7 @@ content:
         title: Cherry Music
         link: http://43.202.82.110/cherrymusic/home.jsp
         link_text: Cherry Music Website
+        link_image: /images/cherry_music_home.png
         additional_links:
           - title: github
             icon: fab fa-github
@@ -146,6 +142,7 @@ content:
         quote: >
           모델1 방식의 JSP기반 쇼핑몰 팀 프로젝트
         description: | # this will include new lines to allow paragraphs
+          ![Cherry Music](/images/cherry_music_home.png "Cherry Music")
           - 기간 : 2023.05.30 ~ 2023.06.23
           - 인원 : 3명
           - 개발환경 : <mark>Java17</mark> <mark>JavaScript</mark> <mark>Jquery</mark> <mark>MariaDB</mark> <mark>Tomcat9</mark>
@@ -159,33 +156,6 @@ content:
               - 장바구니 및 주문 : 세션을 활용한 비회원 장바구니 담기, ajax를 이용한 장바구니 수량 변경
               - 리뷰 : 주문한 상품에 대한 리뷰 작성/수정/삭제, cos api를 이용한 이미지 파일 등록
               - 상품 리스트 출력 : 전체/카테고리별 상품 출력
-
-  # - title: Socail Experience # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: left
-  #       title: 캐럿글로벌
-  #       caption: 2019.06 - 2020.06
-  #       sub_title: B2B교육서비스 기업
-  #       quote: >
-  #         Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-  #       description: | # this will include new lines to allow paragraphs
-  #         - 직책 : 교육매니저
-  #         - 담당역할 : 공공기관 및 사기업 전화외국어 교육 기획 및 운영, 입찰 프로젝트 지원, 학습자 관리
-  #         - 퇴사사유 : 업직종전환
-
-  #         I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  #     - layout: left
-  #       title: 금강오길비
-  #       caption: 2018.06 - 2019.06
-  #       sub_title: 외국계 광고기업
-  #       quote: >
-  #         Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-  #       description: | # this will include new lines to allow paragraphs
-  #         - 직책 : Admin Staff
-  #         - 담당역할 : 시설 및 비품관리, 사내 행사 및 직원 복리후생 관리, 인사업무지원
-  #         - 퇴사사유 : 개인사정
 
 #      Look at this cool image
 #      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
