@@ -95,7 +95,7 @@ content:
 
       - layout: left
         title: Cherry Music
-        link: 43.202.82.110/cherrymusic/home.jsp
+        link: http://43.202.82.110/cherrymusic/home.jsp
         link_text: 프로젝트 보기
         additional_links:
           - title: 프로젝트 github
@@ -105,8 +105,8 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
          quote: >
-         모델1 방식의 JSP기반 쇼핑몰 팀 프로젝트
-        description: | # this will include new lines to allow paragraphs
+          모델1 방식의 JSP기반 쇼핑몰 팀 프로젝트
+         description: | # this will include new lines to allow paragraphs
           - 기간 : 2023.05.30 ~ 2023.06.23
           - 인원 : 3명
           - 개발환경 : <mark>Java17</mark>, <mark>JavaScript</mark>, <mark>Jquery</mark>, <mark>MariaDB</mark>, <mark>Tomcat9</mark>
@@ -130,7 +130,7 @@ content:
         # link_text: boringcompany.com
         sub_title: 클라우드 기반 자바 개발자 양성과정
         caption: 2023.04 - 2023.09
-         quote: >
+        quote: >
         (K-DT)클라우드 활용 자바 개발자 양성과정(5회차)
           - 수강과정 : (K-DT)클라우드 활용 자바 개발자 양성과정(5회차)
           - 교육시간 : 총 118일 / 900시간
