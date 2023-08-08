@@ -97,7 +97,7 @@ content:
 
       - layout: left
         title: Cherry Music
-        link: http://43.202.82.110/cherrymusic/home.jsp
+        link: 43.202.82.110/cherrymusic/home.jsp
         link_text: 프로젝트 보기
         additional_links:
           - title: 프로젝트 github
