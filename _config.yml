@@ -55,7 +55,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak
+        # border: weak
         title: 구디아카데미
         # link: boringcompany.com
         # link_text: boringcompany.com
