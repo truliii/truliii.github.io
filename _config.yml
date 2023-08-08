@@ -48,19 +48,19 @@ github_username: truliii
 # about_title: About Me
 about_profile_image: images/profile_mj.jpg
 about_content: | # this will include new lines to allow paragraphs
-  안녕하세요. 항상 겸손한 마음으로 배우고자하는 신입 백엔드 개발자 <mark>김미진</mark>입니다.
+  안녕하세요. 항상 겸손한 마음으로 배우는 신입 백엔드 개발자 <mark>김미진</mark>입니다.
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top
         title: Cakek Craft
         link: github.com/truliii
         # link_text: Project Website
         additional_links:
           - title: Cake Craft
-            icon: fab fa-link
+            icon: fab fa-globe
             url:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
@@ -74,13 +74,13 @@ content:
           - 개발환경 : Java17, JavaScript, Jquery, MariaDB, Tomcat9, Spring Boot
           - 담당역할 :
 
-      - layout: left
+      - layout: top
         title: JJACK JJACK Cash
         link: github.com/truliii
         # link_text: Project Website
         additional_links:
           - title: JJACK JJACK Cash
-            icon: fab fa-link
+            icon: fab fa-globe
             url:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
@@ -94,13 +94,13 @@ content:
           - 개발환경 : Java17, JavaScript, Jquery, MariaDB, Tomcat9
           - 담당역할 :
 
-      - layout: left
+      - layout: top
         title: Cherry Music
         link: github.com/truliii
         # link_text: Project Website
         additional_links:
           - title: Cherry Music
-            icon: fab fa-link
+            icon: fab fa-globe
             url: http://43.202.82.110/cherrymusic/home.jsp
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
@@ -113,20 +113,20 @@ content:
           - 인원 : 3명
           - 개발환경 : Java17, JavaScript, Jquery, MariaDB, Tomcat9
           - 담당역할 : 
-            <관리자 파트>
-            1. 주문관리 : 고객 주문리스트 출력, 결제상태 및 배송상태별 검색 기능
-            2. 리뷰관리 : 고객이 작성한 리뷰 리스트 출력, 리뷰에 대한 관리자 답변 입력/수정/삭제 기능
-            3. 회원 권한 관리 : 관리자 및 고객 상세정보 출력, 관리자 권한 부여 기능
-            <사용자 파트>
-            1. 개인정보관리 : 개인정보 수정/조회/삭제, kakao주소 api를 이용한 주소 입력/수정/삭제 기능 , 최근 3개월 내 사용하지 않은 비밀번호로 변경
-            2. 장바구니 및 주문 : 세션을 활용한 비회원 장바구니 담기, ajax를 이용한 장바구니 수량 변경
-            3. 리뷰 : 주문한 상품에 대한 리뷰 작성/수정/삭제, cos api를 이용한 이미지 파일 등록
-            4. 상품 리스트 출력 : 전체/카테고리별 상품 출력
+            - 관리자파트
+              - 주문관리 : 고객 주문리스트 출력, 결제상태 및 배송상태별 검색 기능
+              - 리뷰관리 : 고객이 작성한 리뷰 리스트 출력, 리뷰에 대한 관리자 답변 입력/수정/삭제 기능
+              - 회원 권한 관리 : 관리자 및 고객 상세정보 출력, 관리자 권한 부여 기능
+            - 사용자 파트 
+              - 개인정보관리 : 개인정보 수정/조회/삭제, kakao주소 api를 이용한 주소 입력/수정/삭제 기능 , 최근 3개월 내 사용하지 않은 비밀번호로 변경
+              - 장바구니 및 주문 : 세션을 활용한 비회원 장바구니 담기, ajax를 이용한 장바구니 수량 변경
+              - 리뷰 : 주문한 상품에 대한 리뷰 작성/수정/삭제, cos api를 이용한 이미지 파일 등록
+              - 상품 리스트 출력 : 전체/카테고리별 상품 출력
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top
         title: 구디아카데미
         # link: boringcompany.com
         # link_text: boringcompany.com
@@ -143,7 +143,7 @@ content:
             - MariaDB, Oracle DB
             - AWS, Docker
 
-      - layout: left
+      - layout: top
         title: 숙명여자대학교
         # link: boringcompany.com
         # link_text: boringcompany.com
