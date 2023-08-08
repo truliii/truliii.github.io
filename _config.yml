@@ -54,7 +54,7 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top
+      - layout: left
         title: Cakek Craft
         link: github.com/truliii
         # link_text: Project Website
@@ -74,7 +74,7 @@ content:
           - 개발환경 : Java17, JavaScript, Jquery, MariaDB, Tomcat9, Spring Boot
           - 담당역할 :
 
-      - layout: top
+      - layout: left
         title: JJACK JJACK Cash
         link: github.com/truliii
         # link_text: Project Website
@@ -94,7 +94,7 @@ content:
           - 개발환경 : Java17, JavaScript, Jquery, MariaDB, Tomcat9
           - 담당역할 :
 
-      - layout: top
+      - layout: left
         title: Cherry Music
         link: github.com/truliii
         # link_text: Project Website
@@ -126,7 +126,7 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top
+      - layout: left
         title: 구디아카데미
         # link: boringcompany.com
         # link_text: boringcompany.com
@@ -143,7 +143,7 @@ content:
             - MariaDB, Oracle DB
             - AWS, Docker
 
-      - layout: top
+      - layout: left
         title: 숙명여자대학교
         # link: boringcompany.com
         # link_text: boringcompany.com
