@@ -66,10 +66,9 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        # This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        quote: >
+         MVC 방식의 Spring Boot 기반 전자결재 시스템 팀 프로젝트
         description: | # this will include new lines to allow paragraphs
-          - 개요 : MVC 방식의 Spring Boot 기반 전자결재 시스템 팀 프로젝트
           - 기간 : 2023.08.01 ~ 진행 중
           - 인원 : 5명
           - 개발환경 : <mark>Java17</mark>, <mark>JavaScript</mark>, <mark>Jquery</mark>, <mark>MariaDB</mark>, <mark>Tomcat9</mark>, <mark>Spring Boot</mark>
@@ -86,10 +85,9 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        # This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        quote: >
+          모델2 방식의 JSP기반 가계부 개인 프로젝트
         description: | # this will include new lines to allow paragraphs
-          - 개요 : 모델2 방식의 JSP기반 가계부 개인 프로젝트
           - 기간 : 2023.08.01 ~ 진행 중
           - 인원 : 5명
           - 개발환경 : <mark>Java17</mark>, <mark>JavaScript</mark>, <mark>Jquery</mark>, <mark>MariaDB</mark>, <mark>Tomcat9</mark>
