@@ -55,13 +55,14 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        border: weak
         title: Cakek Craft
-        link: github.com/truliii
-        # link_text: Project Website
+        link: 
+        link_text: 프로젝트 보기
         additional_links:
-          - title: Cake Craft
-            icon: fas fa-globe
-            url:
+          - title: 프로젝트 github
+            icon: fab fa-github
+            url: 
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -71,17 +72,17 @@ content:
           - 개요 : MVC 방식의 Spring Boot 기반 전자결재 시스템 팀 프로젝트
           - 기간 : 2023.08.01 ~ 진행 중
           - 인원 : 5명
-          - 개발환경 : Java17, JavaScript, Jquery, MariaDB, Tomcat9, Spring Boot
+          - 개발환경 : <mark>Java17</mark>, <mark>JavaScript</mark>, <mark>Jquery</mark>, <mark>MariaDB</mark>, <mark>Tomcat9</mark>, <mark>Spring Boot</mark>
           - 담당역할 :
 
       - layout: left
         title: JJACK JJACK Cash
-        link: github.com/truliii
-        # link_text: Project Website
+        link: 
+        link_text: 프로젝트 보기
         additional_links:
-          - title: JJACK JJACK Cash
-            icon: fas fa-globe
-            url:
+          - title: 프로젝트 github
+            icon: fab fa-github
+            url: github.com/truliii/jjackjjack-cash
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -91,27 +92,26 @@ content:
           - 개요 : 모델2 방식의 JSP기반 가계부 개인 프로젝트
           - 기간 : 2023.08.01 ~ 진행 중
           - 인원 : 5명
-          - 개발환경 : Java17, JavaScript, Jquery, MariaDB, Tomcat9
+          - 개발환경 : <mark>Java17</mark>, <mark>JavaScript</mark>, <mark>Jquery</mark>, <mark>MariaDB</mark>, <mark>Tomcat9</mark>
           - 담당역할 :
 
       - layout: left
         title: Cherry Music
-        link: github.com/truliii
-        # link_text: Project Website
+        link: http://43.202.82.110/cherrymusic/home.jsp
+        link_text: 프로젝트 보기
         additional_links:
-          - title: Cherry Music
-            icon: fas fa-globe
-            url: http://43.202.82.110/cherrymusic/home.jsp
+          - title: 프로젝트 github
+            icon: fab fa-github
+            url: github.com/truliii/cherry_music
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        # This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+         quote: >
+         모델1 방식의 JSP기반 쇼핑몰 팀 프로젝트
         description: | # this will include new lines to allow paragraphs
-          - 제목 : Cherry Music (모델1 방식의 JSP기반 쇼핑몰 팀 프로젝트)
           - 기간 : 2023.05.30 ~ 2023.06.23
           - 인원 : 3명
-          - 개발환경 : Java17, JavaScript, Jquery, MariaDB, Tomcat9
+          - 개발환경 : <mark>Java17</mark>, <mark>JavaScript</mark>, <mark>Jquery</mark>, <mark>MariaDB</mark>, <mark>Tomcat9</mark>
           - 담당역할 : 
             - 관리자파트
               - 주문관리 : 고객 주문리스트 출력, 결제상태 및 배송상태별 검색 기능
@@ -132,9 +132,8 @@ content:
         # link_text: boringcompany.com
         sub_title: 클라우드 기반 자바 개발자 양성과정
         caption: 2023.04 - 2023.09
-        # quote: >
-        # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
+         quote: >
+        (K-DT)클라우드 활용 자바 개발자 양성과정(5회차)
           - 수강과정 : (K-DT)클라우드 활용 자바 개발자 양성과정(5회차)
           - 교육시간 : 총 118일 / 900시간
           - 교육과정 : 
@@ -147,11 +146,10 @@ content:
         title: 숙명여자대학교
         # link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: 영어영문학부 TESL(Teaching English as a Second Language)전공
+        sub_title: 영어영문학부 TESL전공
         caption: 2012.03 - 2018.02
-        # quote: >
-        # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
+        quote: >
+        TESL(Teaching English as a Second Language)
 
   # - title: Socail Experience # Title for the section
   #   layout: list # Type of content section (list/text)
