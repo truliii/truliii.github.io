@@ -58,7 +58,7 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-right
         # border: weak
         title: 구디아카데미
         # link: boringcompany.com
@@ -88,13 +88,13 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-right
         border: weak
         title: Cake Craft
         link: http://43.202.82.110/cherrymusic/home.jsp
         link_text: Cake Craft Website
         additional_links:
-          - title: github
+          - title: Cake Craft 레파지토리
             icon: fab fa-github
             url: github.com/truliii/cherry_music
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -105,16 +105,16 @@ content:
         description: | # this will include new lines to allow paragraphs
           - 기간 : 2023.08.01 ~ 진행 중
           - 인원 : 5명
-          - 개발환경 : <mark>Java17</mark> <mark>JavaScript</mark> <mark>Jquery</mark> <mark>MariaDB</mark> <mark>Tomcat9</mark> <mark>Spring Boot</mark>
+          - 개발환경 : Java17, JavaScript, Jquery, MariaDB, Tomcat9, Spring Boot
           - 담당역할 :
 
-      - layout: left
+      - layout: top-right
         border: weak
         title: JJACK JJACK Cash
         link: http://43.202.82.110/cherrymusic/home.jsp
         link_text: JJACK JJACK Cash Website
         additional_links:
-          - title: github
+          - title: JJACK JJACK Cash 레파지토리
             icon: fab fa-github
             url: github.com/truliii/jjackjjack-cash
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -124,15 +124,15 @@ content:
           모델2 방식의 JSP기반 가계부 개인 프로젝트
         description: | # this will include new lines to allow paragraphs
           - 기간 : 2023.08.01 ~ 진행 중
-          - 개발환경 : <mark>Java17</mark> <mark>JavaScript</mark> <mark>Jquery</mark> <mark>MariaDB</mark> <mark>Tomcat9</mark>
+          - 개발환경 : Java17, JavaScript, Jquery, MariaDB, Tomcat9
           - 담당역할 :
 
-      - layout: left
+      - layout: top-right
         title: Cherry Music
         link: http://43.202.82.110/cherrymusic/home.jsp
-        link_text: Cherry Music (http://43.202.82.110/cherrymusic/home.jsp)
+        link_text: http://43.202.82.110/cherrymusic/home.jsp
         additional_links:
-          - title: github
+          - title: Cherry Music 레파지토리
             icon: fab fa-github
             url: github.com/truliii/cherry_music
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -144,7 +144,7 @@ content:
           ![Cherry Music](/images/cherry_music_product.png "Cherry Music")
           - 기간 : 2023.05.30 ~ 2023.06.23
           - 인원 : 3명
-          - 개발환경 : <mark>Java17</mark> <mark>JavaScript</mark> <mark>Jquery</mark> <mark>MariaDB</mark> <mark>Tomcat9</mark>
+          - 개발환경 : Java17, JavaScript, Jquery, MariaDB, Tomcat9
           - 담당역할 : 
             - 관리자파트
               - 주문관리 : 고객 주문리스트 출력, 결제상태 및 배송상태별 검색 기능
