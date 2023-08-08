@@ -60,7 +60,7 @@ content:
         # link_text: Project Website
         additional_links:
           - title: Cake Craft
-            icon: fab fa-globe
+            icon: fas fa-globe
             url:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
@@ -80,7 +80,7 @@ content:
         # link_text: Project Website
         additional_links:
           - title: JJACK JJACK Cash
-            icon: fab fa-globe
+            icon: fas fa-globe
             url:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
@@ -100,7 +100,7 @@ content:
         # link_text: Project Website
         additional_links:
           - title: Cherry Music
-            icon: fab fa-globe
+            icon: fas fa-globe
             url: http://43.202.82.110/cherrymusic/home.jsp
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
