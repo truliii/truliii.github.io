@@ -16,7 +16,7 @@ darkmode: false
 
 # Social links
 #twitter_username: facespics
-github_username:  truliii
+github_username: truliii
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -48,45 +48,80 @@ github_username:  truliii
 # about_title: About Me
 about_profile_image: images/profile_mj.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  안녕하세요. 항상 겸손한 마음으로 배우고자하는 신입 백엔드 개발자 <mark>김미진</mark>입니다.
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 파이널 프로젝트
+        title: Cakek Craft
         link: github.com/truliii
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+          - title: Cake Craft
+            icon: fab fa-link
+            url:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         # quote: >
-          # This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        # This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-      
+          - 개요 : MVC 방식의 Spring Boot 기반 전자결재 시스템 팀 프로젝트
+          - 기간 : 2023.08.01 ~ 진행 중
+          - 인원 : 5명
+          - 개발환경 : Java17, JavaScript, Jquery, MariaDB, Tomcat9, Spring Boot
+          - 담당역할 :
+
       - layout: left
-        title: 세미 프로젝트
+        title: JJACK JJACK Cash
         link: github.com/truliii
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+          - title: JJACK JJACK Cash
+            icon: fab fa-link
+            url:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         # quote: >
-          # This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        # This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          - 개요 : 모델2 방식의 JSP기반 가계부 개인 프로젝트
+          - 기간 : 2023.08.01 ~ 진행 중
+          - 인원 : 5명
+          - 개발환경 : Java17, JavaScript, Jquery, MariaDB, Tomcat9
+          - 담당역할 :
+
+      - layout: left
+        title: Cherry Music
+        link: github.com/truliii
+        # link_text: Project Website
+        additional_links:
+          - title: Cherry Music
+            icon: fab fa-link
+            url: http://43.202.82.110/cherrymusic/home.jsp
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        # This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          - 제목 : Cherry Music (모델1 방식의 JSP기반 쇼핑몰 팀 프로젝트)
+          - 기간 : 2023.05.30 ~ 2023.06.23
+          - 인원 : 3명
+          - 개발환경 : Java17, JavaScript, Jquery, MariaDB, Tomcat9
+          - 담당역할 : 
+            <관리자 파트>
+            1. 주문관리 : 고객 주문리스트 출력, 결제상태 및 배송상태별 검색 기능
+            2. 리뷰관리 : 고객이 작성한 리뷰 리스트 출력, 리뷰에 대한 관리자 답변 입력/수정/삭제 기능
+            3. 회원 권한 관리 : 관리자 및 고객 상세정보 출력, 관리자 권한 부여 기능
+            <사용자 파트>
+            1. 개인정보관리 : 개인정보 수정/조회/삭제, kakao주소 api를 이용한 주소 입력/수정/삭제 기능 , 최근 3개월 내 사용하지 않은 비밀번호로 변경
+            2. 장바구니 및 주문 : 세션을 활용한 비회원 장바구니 담기, ajax를 이용한 장바구니 수량 변경
+            3. 리뷰 : 주문한 상품에 대한 리뷰 작성/수정/삭제, cos api를 이용한 이미지 파일 등록
+            4. 상품 리스트 출력 : 전체/카테고리별 상품 출력
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -98,45 +133,62 @@ content:
         sub_title: 클라우드 기반 자바 개발자 양성과정
         caption: 2023.04 - 2023.09
         # quote: >
-          # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-    
+          - 수강과정 : (K-DT)클라우드 활용 자바 개발자 양성과정(5회차)
+          - 교육시간 : 총 118일 / 900시간
+          - 교육과정 : 
+            - HTML, CSS, BootStrap, JavaScript, Jquery
+            - JSP, Spring Framework
+            - MariaDB, Oracle DB
+            - AWS, Docker
+
       - layout: left
         title: 숙명여자대학교
         # link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: 영어영문학부 TESL전공
+        sub_title: 영어영문학부 TESL(Teaching English as a Second Language)전공
         caption: 2012.03 - 2018.02
         # quote: >
-          # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
 
   # - title: Socail Experience # Title for the section
   #   layout: list # Type of content section (list/text)
   #   content:
   #     - layout: left
-  #       title: Harvard University
-  #       caption: 2010 - 2013
-  #       sub_title: BSc Computer Science
+  #       title: 캐럿글로벌
+  #       caption: 2019.06 - 2020.06
+  #       sub_title: B2B교육서비스 기업
   #       quote: >
   #         Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
   #       description: | # this will include new lines to allow paragraphs
-  #         During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+  #         - 직책 : 교육매니저
+  #         - 담당역할 : 공공기관 및 사기업 전화외국어 교육 기획 및 운영, 입찰 프로젝트 지원, 학습자 관리
+  #         - 퇴사사유 : 업직종전환
 
   #         I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+
+  #     - layout: left
+  #       title: 금강오길비
+  #       caption: 2018.06 - 2019.06
+  #       sub_title: 외국계 광고기업
+  #       quote: >
+  #         Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+  #       description: | # this will include new lines to allow paragraphs
+  #         - 직책 : Admin Staff
+  #         - 담당역할 : 시설 및 비품관리, 사내 행사 및 직원 복리후생 관리, 인사업무지원
+  #         - 퇴사사유 : 개인사정
 
   - title: License and Certificate
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
       - 정보처리기사 필기 합격
       - SQLD 합격
       - TOEIC 890
       - 운전면허 2종보통
 
-#      Look at this cool image  
+#      Look at this cool image
 #      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
@@ -151,4 +203,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
