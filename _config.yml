@@ -130,7 +130,7 @@ content:
       - layout: left
         title: Cherry Music
         link: http://43.202.82.110/cherrymusic/home.jsp
-        link_text: <img src="/images/cherry_music_home.png"/>
+        link_text: Cherry Music (http://43.202.82.110/cherrymusic/home.jsp)
         additional_links:
           - title: github
             icon: fab fa-github
@@ -141,7 +141,7 @@ content:
         quote: >
           모델1 방식의 JSP기반 쇼핑몰 팀 프로젝트
         description: | # this will include new lines to allow paragraphs
-          ![Cherry Music](/images/cherry_music_home.png "Cherry Music")
+          ![Cherry Music](/images/cherry_music_product.png "Cherry Music")
           - 기간 : 2023.05.30 ~ 2023.06.23
           - 인원 : 3명
           - 개발환경 : <mark>Java17</mark> <mark>JavaScript</mark> <mark>Jquery</mark> <mark>MariaDB</mark> <mark>Tomcat9</mark>
