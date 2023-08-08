@@ -51,6 +51,44 @@ about_content: | # this will include new lines to allow paragraphs
   안녕하세요. 항상 겸손한 마음으로 배우는 신입 백엔드 개발자 <mark>김미진</mark>입니다.
 
 content:
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak
+        title: 구디아카데미
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: 클라우드 기반 자바 개발자 양성과정
+        caption: 2023.04 - 2023.09
+        quote: >
+          (K-DT)클라우드 활용 자바 개발자 양성과정(5회차)
+        description: | # this will include new lines to allow paragraphs
+          - 수강과정 : (K-DT)클라우드 활용 자바 개발자 양성과정(5회차)
+          - 교육시간 : 총 118일 / 900시간
+          - 교육과정 : 
+            - HTML, CSS, BootStrap, JavaScript, Jquery
+            - JSP, Spring Framework
+            - MariaDB, Oracle DB
+            - AWS, Docker
+
+      # - layout: left
+      #   title: 숙명여자대학교
+      #   # link: boringcompany.com
+      #   # link_text: boringcompany.com
+      #   sub_title: 영어영문학부 TESL전공
+      #   caption: 2012.03 - 2018.02
+      #   quote: >
+      #     TESL(Teaching English as a Second Language)
+
+  - title: License and Certificate
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - 정보처리기사 필기 합격
+      - SQLD 합격
+      - TOEIC 890
+      - 운전면허 2종보통
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -122,36 +160,6 @@ content:
               - 리뷰 : 주문한 상품에 대한 리뷰 작성/수정/삭제, cos api를 이용한 이미지 파일 등록
               - 상품 리스트 출력 : 전체/카테고리별 상품 출력
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak
-        title: 구디아카데미
-        # link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: 클라우드 기반 자바 개발자 양성과정
-        caption: 2023.04 - 2023.09
-        quote: >
-          (K-DT)클라우드 활용 자바 개발자 양성과정(5회차)
-        description: | # this will include new lines to allow paragraphs
-          - 수강과정 : (K-DT)클라우드 활용 자바 개발자 양성과정(5회차)
-          - 교육시간 : 총 118일 / 900시간
-          - 교육과정 : 
-            - HTML, CSS, BootStrap, JavaScript, Jquery
-            - JSP, Spring Framework
-            - MariaDB, Oracle DB
-            - AWS, Docker
-
-      - layout: left
-        title: 숙명여자대학교
-        # link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: 영어영문학부 TESL전공
-        caption: 2012.03 - 2018.02
-        quote: >
-          TESL(Teaching English as a Second Language)
-
   # - title: Socail Experience # Title for the section
   #   layout: list # Type of content section (list/text)
   #   content:
@@ -178,14 +186,6 @@ content:
   #         - 직책 : Admin Staff
   #         - 담당역할 : 시설 및 비품관리, 사내 행사 및 직원 복리후생 관리, 인사업무지원
   #         - 퇴사사유 : 개인사정
-
-  - title: License and Certificate
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      - 정보처리기사 필기 합격
-      - SQLD 합격
-      - TOEIC 890
-      - 운전면허 2종보통
 
 #      Look at this cool image
 #      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
