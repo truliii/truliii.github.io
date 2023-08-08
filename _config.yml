@@ -130,8 +130,7 @@ content:
       - layout: left
         title: Cherry Music
         link: http://43.202.82.110/cherrymusic/home.jsp
-        link_text: Cherry Music Website
-        link_image: /images/cherry_music_home.png
+        link_text: ![Cherry Music](/images/cherry_music_home.png "Cherry Music")
         additional_links:
           - title: github
             icon: fab fa-github
