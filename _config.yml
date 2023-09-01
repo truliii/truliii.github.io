@@ -91,7 +91,7 @@ content:
       - layout: left
         border: weak
         title: Cake Craft
-        sub_title: >
+        sub_title: |
           MVC 방식의 Spring Boot 기반
           전자결재 시스템 팀 프로젝트
         # link: http://43.202.82.110/cherrymusic/home.jsp
@@ -119,7 +119,7 @@ content:
       - layout: left
         border: weak
         title: Cherry Music
-        sub_title: >
+        sub_title: |
           모델1 방식의 JSP기반 
           쇼핑몰 팀 프로젝트
         link: http://43.202.82.110/cherrymusic/home.jsp
@@ -151,7 +151,7 @@ content:
       - layout: left
         #border: weak
         title: JJACK JJACK Cash
-        sub_title: >
+        sub_title: |
           모델2 방식의 JSP기반 
           가계부 개인 프로젝트
         link: http://43.202.82.110/cash/on/cashbook
