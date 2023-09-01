@@ -49,7 +49,7 @@ github_username: truliii
 about_profile_image: images/profile_mj.jpg
 about_content: | # this will include new lines to allow paragraphs
   안녕하세요. 항상 겸손한 마음으로 배우는 신입 백엔드 개발자 <mark>김미진</mark>입니다.
-  - 정보처리기사 필기 합격 (2023.07)
+  - 정보처리기사 합격 (2023.09)
   - SQLD 합격 (2023.06)
   - TOEIC 890 (2022.08)
   - 운전면허 2종 보통 (2020.08)
@@ -58,7 +58,7 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-right
+      - layout: left
         # border: weak
         title: 구디아카데미
         # link: boringcompany.com
@@ -66,55 +66,62 @@ content:
         sub_title: 클라우드 기반 자바 개발자 양성과정
         caption: 2023.04 - 2023.09
         quote: >
-          (K-DT)클라우드 활용 자바 개발자 양성과정(5회차)
+          (K-DT)자바 개발자 양성과정(5회차)
         description: | # this will include new lines to allow paragraphs
-          - 수강과정 : (K-DT)클라우드 활용 자바 개발자 양성과정(5회차)
+          - 수강과정 : (K-DT)자바 개발자 양성과정(5회차)
           - 교육시간 : 총 118일 / 900시간
           - 교육과정 : 
-            - HTML, CSS, BootStrap, JavaScript, Jquery
+            - Java, JavaScript, Jquery
+            - HTML, CSS, BootStrap
             - JSP, Spring Framework
             - MariaDB, Oracle DB
             - AWS, Docker
 
-      # - layout: left
-      #   title: 숙명여자대학교
-      #   # link: boringcompany.com
-      #   # link_text: boringcompany.com
-      #   sub_title: 영어영문학부 TESL전공
-      #   caption: 2012.03 - 2018.02
+      - layout: left
+        title: 숙명여자대학교
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: 영어영문학부 TESL전공
+        caption: 2012.03 - 2018.02
       #   quote: >
       #     TESL(Teaching English as a Second Language)
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-right
+      - layout: left
         border: weak
         title: Cake Craft
-        link: http://43.202.82.110/cherrymusic/home.jsp
-        link_text: Cake Craft Website
+        # link: http://43.202.82.110/cherrymusic/home.jsp
+        # link_text: Cake Craft Website
         additional_links:
-          - title: Cake Craft 레파지토리
+          - title: Cake Craft
             icon: fab fa-github
-            url: github.com/truliii/cherry_music
+            url: github.com/Booyo-Vo/Cake_Craft
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           MVC 방식의 Spring Boot 기반 전자결재 시스템 팀 프로젝트
         description: | # this will include new lines to allow paragraphs
+          ![CakeCraft](/images/cakecraft_reservation.png "Cake Craft")
           - 기간 : 2023.08.01 ~ 진행 중
           - 인원 : 5명
           - 개발환경 : Java17, JavaScript, Jquery, MariaDB, Tomcat9, Spring Boot
           - 담당역할 :
+            - 관리자파트
+              - 시설비품관리 : 시설비품 카테고리 등록/수정, jqgrid를 이용한 시설비품 리스트 출력, 시설비품 등록/수정
+            - 사용자 파트 
+              - 시설비품 예약관리 : 일별 시설비품 예약현황 출력, 시설비품 예약기능, jqgrid를 이용한 사원별 예약 이력 출력, 예약 시간 이전 삭제 기능
+              - 메신저(구현중) : 채팅방 등록, WebSocket을 이용한 채팅기능
 
-      - layout: top-right
+      - layout: left
         border: weak
         title: JJACK JJACK Cash
-        link: http://43.202.82.110/cherrymusic/home.jsp
-        link_text: JJACK JJACK Cash Website
+        link: http://43.202.82.110/cash/on/cashbook
+        link_text: http://43.202.82.110/cash/on/cashbook
         additional_links:
-          - title: JJACK JJACK Cash 레파지토리
+          - title: JJACK JJACK Cash
             icon: fab fa-github
             url: github.com/truliii/jjackjjack-cash
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -123,16 +130,24 @@ content:
         quote: >
           모델2 방식의 JSP기반 가계부 개인 프로젝트
         description: | # this will include new lines to allow paragraphs
-          - 기간 : 2023.08.01 ~ 진행 중
+          ![Cashbook](/images/cashbook_calendar.png "Cashbook")
+          - 기간 : 2023.07.01 ~ 2023.07.21
           - 개발환경 : Java17, JavaScript, Jquery, MariaDB, Tomcat9
-          - 담당역할 :
+          - 구현기능 :
+            - 로그인
+              - Cookie를 이용한 아이디 저장기능
+              - Session Filter를 이용한 현재 방문자 수, 오늘 방문자 수, 누적 방문자 수 출력
+            - 가계부
+              - Calendar api 이용하여 월별 가계부 출력
+              - 가계부 입력, 수정, 삭제 기능
+              - 입력 시 해시태그 추출하여 해시태그별 내역 출력
 
-      - layout: top-right
+      - layout: left
         title: Cherry Music
         link: http://43.202.82.110/cherrymusic/home.jsp
         link_text: http://43.202.82.110/cherrymusic/home.jsp
         additional_links:
-          - title: Cherry Music 레파지토리
+          - title: Cherry Music
             icon: fab fa-github
             url: github.com/truliii/cherry_music
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
