@@ -117,6 +117,7 @@ content:
               - 메신저(구현중) : 채팅방 등록, WebSocket을 이용한 채팅기능
 
       - layout: left
+        border: weak
         title: Cherry Music
         sub_title: >
           모델1 방식의 JSP기반 
@@ -148,7 +149,7 @@ content:
               - 상품 리스트 출력 : 전체/카테고리별 상품 출력
 
       - layout: left
-        border: weak
+        #border: weak
         title: JJACK JJACK Cash
         sub_title: >
           모델2 방식의 JSP기반 
