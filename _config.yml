@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: 김미진
 title: 백엔드 개발자 신입
-email: trulyjink@gmail.com
+email: alwls726@naver.com
 website: www.github.com/truliii
 
 # Dark Mode (true/false/never)
@@ -50,9 +50,8 @@ about_profile_image: images/profile_mj.jpg
 about_content: | # this will include new lines to allow paragraphs
   안녕하세요. 항상 겸손한 마음으로 배우는 신입 백엔드 개발자 <mark>김미진</mark>입니다.
   - 정보처리기사 합격 (2023.09)
-  - SQLD 합격 (2023.06)
+  - SQLD 합격 (2023.07)
   - TOEIC 890 (2022.08)
-  - 운전면허 2종 보통 (2020.08)
 
 content:
   - title: Education # Title for the section
@@ -63,11 +62,10 @@ content:
         title: 구디아카데미
         # link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: 클라우드 기반 자바 개발자 양성과정
+        sub_title: (K-DT)Java 개발자 양성과정
         caption: 2023.04 - 2023.09
         # quote: >
         description: | # this will include new lines to allow paragraphs
-          - 수강과정 : (K-DT)자바 개발자 양성과정(5회차)
           - 교육시간 : 총 118일 / 900시간
           - 교육과정 : 
             - Java, JavaScript, Jquery
@@ -122,8 +120,8 @@ content:
         sub_title: |
           모델1 방식의 JSP기반 
           쇼핑몰 팀 프로젝트
-        link: http://43.202.82.110/cherrymusic/home.jsp
-        link_text: http://43.202.82.110/cherrymusic/home.jsp
+        # link: http://43.202.82.110/cherrymusic/home.jsp
+        # link_text: http://43.202.82.110/cherrymusic/home.jsp
         additional_links:
           - title: Cherry Music
             icon: fab fa-github
@@ -154,8 +152,8 @@ content:
         sub_title: |
           모델2 방식의 JSP기반 
           가계부 개인 프로젝트
-        link: http://43.202.82.110/cash/on/cashbook
-        link_text: http://43.202.82.110/cash/on/cashbook
+        # link: http://43.202.82.110/cash/on/cashbook
+        # link_text: http://43.202.82.110/cash/on/cashbook
         additional_links:
           - title: JJACK JJACK Cash
             icon: fab fa-github
